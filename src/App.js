@@ -15,12 +15,6 @@ const theme = createTheme({
     },
 });
 
-const darkTheme = createTheme({
-    palette: {
-        type: "dark",
-    },
-});
-
 function App() {
     return (
         <ThemeProvider theme={theme}>
